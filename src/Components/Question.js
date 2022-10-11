@@ -4,12 +4,13 @@ import Option from './Option';
 import { EyeIcon, EyeSlashIcon } from '@heroicons/react/24/solid'
 import { useState } from 'react';
 
-const Question = ({ ques }) => {
+const Question = ({ ques, setScore }) => {
     const [open, setOpen] = useState(false);
 
     const handleAnswer = (ans) => {
         if (ans === ques.correctAnswer) {
             toast.success("Answer is currect!!");
+            setScore(previous => previous + 1);
         }
         else {
             toast.error("Answer is not currect!!");
