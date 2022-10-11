@@ -10,8 +10,8 @@ const Header = () => {
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </label>
                     <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-red-900">
-                        <NavLink to="/" className="btn btn-ghost normal-case text-xl">Topics</NavLink>
-                        <NavLink to="/" className="btn btn-ghost normal-case text-xl">Statistics</NavLink>
+                        <NavLink to="/home" className="btn btn-ghost normal-case text-xl">Home</NavLink>
+                        <NavLink to="/statistics" className="btn btn-ghost normal-case text-xl">Statistics</NavLink>
                         <NavLink to="/" className="btn btn-ghost normal-case text-xl">Blog</NavLink>
                     </ul>
                 </div>
@@ -21,8 +21,8 @@ const Header = () => {
             </div>
             <div className="navbar-end hidden lg:flex text-red-900">
 
-                <NavLink to="/" className="btn btn-ghost normal-case text-xl">Topics</NavLink>
-                <NavLink to="/" className="btn btn-ghost normal-case text-xl">Statistics</NavLink>
+                <NavLink to="/home" className="btn btn-ghost normal-case text-xl">Home</NavLink>
+                <NavLink to="/statistics" className="btn btn-ghost normal-case text-xl">Statistics</NavLink>
                 <NavLink to="/" className="btn btn-ghost normal-case text-xl">Blog</NavLink>
 
             </div>
