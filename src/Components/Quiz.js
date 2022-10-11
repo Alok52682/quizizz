@@ -14,7 +14,7 @@ const Quiz = () => {
     return (
         <div>
             <h1 className='text-center text-error text-3xl md:text-5xl font-bold md:font-extrabold my-8 underline'>Quiz of {loaderData.data.name}</h1>
-            <span className='px-10 py-5 bg-red-50 text-2xl sticky top-44 rounded-r-lg'>Correct : {correctAnswer}</span>
+            <span className='px-10 py-5 bg-red-50 md:text-2xl sticky top-16 md:top-44 rounded-r-lg'>Correct : {correctAnswer}</span>
             <div className='text-center'>
                 {
                     questions ? questions.map(question => <Question key={question.id} ques={question} setScore={setCorrectAnswer} />) : <ErrorPage></ErrorPage>
