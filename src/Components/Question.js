@@ -19,7 +19,7 @@ const Question = ({ ques, setScore, index }) => {
 
     return (
         <div className='w-9/12 mx-auto border border-error rounded-lg shadow-lg shadow-slate-300/50 p-5 my-10'>
-            <h1 className='text-xl font-semibold'>Ques {index + 1} : {ques.question}</h1>
+            <h1 className='text-xl font-semibold'>Question {index + 1} : {ques.question}</h1>
 
             <ol className='list-decimal'>
                 {
