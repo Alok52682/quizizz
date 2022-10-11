@@ -12,7 +12,7 @@ const Header = () => {
                     <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-red-900">
                         <NavLink to="/home" className="btn btn-ghost normal-case text-xl">Home</NavLink>
                         <NavLink to="/statistics" className="btn btn-ghost normal-case text-xl">Statistics</NavLink>
-                        <NavLink to="/" className="btn btn-ghost normal-case text-xl">Blog</NavLink>
+                        <NavLink to="/blog" className="btn btn-ghost normal-case text-xl">Blog</NavLink>
                     </ul>
                 </div>
                 <Link to="/" className="btn btn-ghost normal-case text-xl">
@@ -23,7 +23,7 @@ const Header = () => {
 
                 <NavLink to="/home" className="btn btn-ghost normal-case text-xl">Home</NavLink>
                 <NavLink to="/statistics" className="btn btn-ghost normal-case text-xl">Statistics</NavLink>
-                <NavLink to="/" className="btn btn-ghost normal-case text-xl">Blog</NavLink>
+                <NavLink to="/blog" className="btn btn-ghost normal-case text-xl">Blog</NavLink>
 
             </div>
         </div>

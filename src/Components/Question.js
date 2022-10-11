@@ -23,7 +23,7 @@ const Question = ({ ques }) => {
                 {
                     ques.options.map((ans, index) => <Option key={index} ans={ans} handleAnswer={handleAnswer} />)
                 }
-                <ToastContainer />
+                <ToastContainer autoClose={2000} />
             </ol>
             <div onClick={() => setOpen(!open)} title='Show The Currect Answer' className='cursor-pointer'>
                 {open ? <EyeSlashIcon className="h-6 w-6" /> : <EyeIcon className="h-6 w-6" />}
