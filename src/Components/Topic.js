@@ -13,7 +13,7 @@ const Topic = ({ topic }) => {
                 <h2 className="card-title">{name}</h2>
                 <p>Total Quiz : {total}</p>
                 <div className="card-actions">
-                    <Link to={`quiz/${id}`}><button className="btn border-3 btn-outline btn-error">Get Quiz <DocumentTextIcon className="h-6 w-6" /></button></Link>
+                    <Link to={`../home/${id}`}><button className="btn border-3 btn-outline btn-error">Get Quiz <DocumentTextIcon className="h-6 w-6" /></button></Link>
                 </div>
             </div>
         </div>
