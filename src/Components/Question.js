@@ -25,7 +25,7 @@ const Question = ({ ques }) => {
                 }
                 <ToastContainer />
             </ol>
-            <div onClick={() => setOpen(!open)} title='Show Currect Answer' className='cursor-pointer'>
+            <div onClick={() => setOpen(!open)} title='Show The Currect Answer' className='cursor-pointer'>
                 {open ? <EyeSlashIcon className="h-6 w-6" /> : <EyeIcon className="h-6 w-6" />}
             </div>
             {

@@ -1,4 +1,5 @@
 import { useLoaderData } from 'react-router-dom';
+import ErrorPage from './ErrorPage';
 import Question from './Question';
 
 const Quiz = () => {
@@ -12,7 +13,7 @@ const Quiz = () => {
             <h1 className='text-center text-error text-3xl md:text-5xl font-bold md:font-extrabold my-8 underline'>Quiz of {loaderData.data.name}</h1>
             <div className='text-center'>
                 {
-                    questions.map(question => <Question key={question.id} ques={question} />)
+                    questions ? questions.map(question => <Question key={question.id} ques={question} />) : <ErrorPage></ErrorPage>
                 }
             </div>
 
