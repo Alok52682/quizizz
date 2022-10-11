@@ -17,7 +17,7 @@ const Quiz = () => {
             <span className='px-10 py-5 bg-red-50 md:text-2xl sticky top-16 md:top-44 rounded-r-lg'>Correct : {correctAnswer}</span>
             <div className='text-center'>
                 {
-                    questions ? questions.map(question => <Question key={question.id} ques={question} setScore={setCorrectAnswer} />) : <ErrorPage />
+                    questions ? questions.map((question, index) => <Question key={question.id} index={index} ques={question} setScore={setCorrectAnswer} />) : <ErrorPage />
                 }
             </div>
 

@@ -4,7 +4,7 @@ import Option from './Option';
 import { EyeIcon, EyeSlashIcon } from '@heroicons/react/24/solid'
 import { useState } from 'react';
 
-const Question = ({ ques, setScore }) => {
+const Question = ({ ques, setScore, index }) => {
     const [open, setOpen] = useState(false);
 
     const handleAnswer = (ans) => {
@@ -16,9 +16,10 @@ const Question = ({ ques, setScore }) => {
             toast.error("Answer is not currect!!");
         }
     }
+
     return (
         <div className='w-9/12 mx-auto border border-error rounded-lg shadow-lg shadow-slate-300/50 p-5 my-10'>
-            <h1 className='text-xl font-semibold'>{ques.question}</h1>
+            <h1 className='text-xl font-semibold'>Ques {index + 1} : {ques.question}</h1>
 
             <ol className='list-decimal'>
                 {
