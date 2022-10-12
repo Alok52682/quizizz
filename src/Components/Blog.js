@@ -5,7 +5,7 @@ const Blog = () => {
         <div>
             <div className='w-10/12 mx-auto'>
                 <h1 className='text-5xl font-bold text-error my-10'>#Question 1</h1>
-                <div className="card card-compact bg-base-100 shadow-xl">
+                <div className="card card-compact bg-violet-100 shadow-xl">
                     <figure><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt5ccM2OaHBdFLxqr_7sQPxWA8f2nARYig9A&usqp=CAU" className='w-full' alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">What is the purpose of React Router?</h2>
@@ -19,7 +19,7 @@ const Blog = () => {
             </div>
             <div className='w-10/12 mx-auto'>
                 <h1 className='text-5xl font-bold text-error my-10'>#Question 2</h1>
-                <div className="card card-compact bg-base-100 shadow-xl">
+                <div className="card card-compact bg-violet-100 shadow-xl">
                     <figure><img src="https://www.qed42.com/sites/default/files/2020-05/Context%20API%20in%20React%20with%20Hooks.png" className='w-full' alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">How does Context API works?</h2>
@@ -33,7 +33,7 @@ const Blog = () => {
             </div>
             <div className='w-10/12 mx-auto'>
                 <h1 className='text-5xl font-bold text-error my-10'>#Question 3</h1>
-                <div className="card card-compact bg-base-100 shadow-xl">
+                <div className="card card-compact bg-violet-100 shadow-xl">
                     <figure><img src="https://blog.alexdevero.com/wp-content/uploads/2021/05/10-05-21-reacts-useref-hook-what-it-is-and-how-to-use-it-blog.jpg" className='w-full' alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">Describe UseRef shortly</h2>

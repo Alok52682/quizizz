@@ -5,7 +5,7 @@ import { DocumentTextIcon } from '@heroicons/react/24/solid'
 const Topic = ({ topic }) => {
     const { logo, name, total, id } = topic
     return (
-        <div className="card bg-base-100 shadow-xl">
+        <div className="card bg-violet-200 shadow-xl">
             <figure className="px-10 pt-10">
                 <img src={logo} alt="Shoes" className="rounded-xl border border-slate-200" />
             </figure>
