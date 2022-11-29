@@ -28,7 +28,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <Link to="/" className="btn btn-ghost normal-case text-xl">
-                    <img src="https://www.pngkey.com/png/full/117-1178305_logo-quizizz-logo.png" className='w-32' alt="" />
+                    <h2>Quizizz</h2>
                 </Link>
             </div>
             <div className="navbar-end hidden lg:flex text-error">
